@@ -1,0 +1,206 @@
+
+#zend-dev-bar .zdb-popup-pin,
+#zend-dev-bar .zdb-export-results-btn1 {
+	cursor: pointer;
+	height: 24px;
+	width: 24px;
+	display: block;
+	float: right;
+	margin: 0;
+}
+
+
+#zend-dev-bar .zdb-toolbar-entry .zdb-toolbar-preview1 {
+	display: block;
+	padding: 0 8px;
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+}
+
+#zend-dev-bar .zdb-toolbar-entry.zdb-secure .zdb-toolbar-preview1 {
+	padding-right: 0px;
+}
+
+
+
+
+#zend-dev-bar .zdb-toolbar-preview1 .zdb-badge-normal {
+	background: #FFF;
+	color: #2076a2;
+}
+
+#zend-dev-bar .zdb-toolbar-detail .zdb-badge-warning,
+#zend-dev-bar .zdb-toolbar-preview1 .zdb-badge-warning {
+	background: orange;
+	color: #FFF;
+}
+
+
+#zend-dev-bar .zdb-toolbar-detail .zdb-badge-critical,
+#zend-dev-bar .zdb-toolbar-preview1 .zdb-badge-critical {
+	background: #C11;
+	color: #FFF;
+}
+
+
+
+#zend-dev-bar .zdb-toolbar-entry .zdb-toolbar-preview1:hover,
+#zend-dev-bar .zdb-toolbar-entry.active .zdb-toolbar-preview1 {
+	background: #2076a2; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2076a2 0%, #1c648a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2076a2), color-stop(100%,#1c648a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2076a2 0%,#1c648a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2076a2 0%,#1c648a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2076a2 0%,#1c648a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2076a2 0%,#1c648a 100%); /* W3C */
+	filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#2076a2', endColorstr='#1c648a',GradientType=0 )"; /* IE6-9 */
+}
+
+#zend-dev-bar .zdb-toolbar-entry:hover .zdb-toolbar-preview1,
+#zend-dev-bar .zdb-toolbar-entry.active .zdb-toolbar-preview1 {
+	cursor: pointer;
+}
+
+#zend-dev-bar .zdb-server-info.zdb-toolbar-entry:hover, 
+#zend-dev-bar .zdb-server-info.zdb-toolbar-entry.active,
+#zend-dev-bar .zdb-toolbar-entry.zdb-toolbar-button .zdb-toolbar-preview1:hover {
+	background: transparent;
+}
+
+#zend-dev-bar .zdb-toolbar-preview1 i {
+	font-size: 20px;
+	color: #C5C5C5;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+#zend-dev-bar .zdb-toolbar-preview1 img {
+    border: 0;
+    width: auto;
+    display: inline;
+	margin-right: 0px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+#zend-dev-bar .zdb-toolbar-entry .zdb-toolbar-preview1:hover .zdb-toolbar-info,
+#zend-dev-bar .zdb-toolbar-entry.active .zdb-toolbar-info,
+#zend-dev-bar .zdb-toolbar-entry.active .zdb-toolbar-info,
+#zend-dev-bar .zdb-toolbar-entry.active .zsb-blue-font,
+#zend-dev-bar .zdb-toolbar-entry .zdb-toolbar-preview1:hover .zsb-blue-font, 
+#zend-dev-bar .zdb-toolbar-entry.active .zdb-http-response,
+#zend-dev-bar .zdb-toolbar-entry .zdb-toolbar-preview1:hover .zdb-http-response	{
+	color: #fff;
+}
+
+#zend-dev-bar .zdb-server-info .zdb-detail-label,
+#zend-dev-bar .zdb-server-info .zdb-detail-value,
+#zend-dev-bar .zdb-toolbar-entry.zdb-toolbar-button .zdb-toolbar-preview1:hover .zdb-toolbar-info,
+#zend-dev-bar .zdb-toolbar-entry.zdb-toolbar-button .zdb-toolbar-preview1:hover {
+	color: #000;
+}
+
+#zend-dev-bar .zdb-studio-integration,
+#zend-dev-bar .zdb-studio-integration .zdb-toolbar-preview1 {
+	padding: 0 4px 0 0;
+	
+}
+
+#zend-dev-bar .zdb-controls .zdb-toolbar-preview1,
+#zend-dev-bar .zdb-studio-integration .zdb-toolbar-preview1 {
+	display: inline-block;
+}
+
+#zend-dev-bar .zdb-toolbar-preview1:hover .zdb-toolbar-icon, #zend-dev-bar .active .zdb-toolbar-icon { background-position: 0px -24px;   }
+/* updated icons with warning/critical */
+#zend-dev-bar .zdb-toolbar-preview1-critical .zdb-toolbar-icon, #zend-dev-bar .zdb-toolbar-preview1-critical .zdb-toolbar-icon { background-position: 0px -96px; }
+#zend-dev-bar .zdb-toolbar-preview1-critical:hover .zdb-toolbar-icon, #zend-dev-bar .active .zdb-toolbar-preview1-critical .zdb-toolbar-icon { background-position: 0px -120px; }
+#zend-dev-bar .zdb-toolbar-preview1-warning .zdb-toolbar-icon, #zend-dev-bar .zdb-toolbar-preview1-warning .zdb-toolbar-icon { background-position: 0px -48px; }
+#zend-dev-bar .zdb-toolbar-preview1-warning:hover .zdb-toolbar-icon, #zend-dev-bar .active .zdb-toolbar-preview1-warning .zdb-toolbar-icon { background-position: 0px -72px; }
+
+
+#zend-dev-bar .zdb-controls .zdb-toolbar-preview1 {
+	padding: 0;
+}
+
+/******************* NEW PAGER *******************/
+/* pager wrapper, div */
+/* pager wrapper, in thead/tfoot */
+#zend-dev-bar td.zdb-pager1 {
+  background-color: #e6eeee;
+  margin: 0; /* needed for bootstrap .pager gets a 18px bottom margin */
+}
+/* pager navigation arrows */
+#zend-dev-bar .zdb-pager1 img {
+  vertical-align: middle;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+/* pager output text */
+#zend-dev-bar .zdb-pager1 .zdb-pagedisplay {
+  padding: 0 5px 0 5px;
+  width: 50px;
+  text-align: center;
+}
+
+/* pager element reset (needed for bootstrap) */
+#zend-dev-bar .zdb-pager1 select {
+  margin: 0;
+  padding: 0;
+}
+
+/*** css used when "updateArrows" option is true ***/
+/* the pager itself gets a disabled class when the number of rows is less than the size */
+#zend-dev-bar .zdb-pager1.disabled {
+  display: none;
+}
+/* hide or fade out pager arrows when the first or last row is visible */
+#zend-dev-bar .zdb-pager1 .disabled {
+  /* visibility: hidden */
+  opacity: 0.5;
+  filter: "alpha(opacity=50)";
+  cursor: default;
+}
+
+#zend-dev-bar .zdb-pager1 .zdb-last,
+#zend-dev-bar .zdb-pager1 .zdb-first,
+#zend-dev-bar .zdb-pager1 .zdb-next,
+#zend-dev-bar .zdb-pager1 .zdb-prev {
+	vertical-align: middle;
+  	margin-right: 2px;
+  	cursor: pointer;
+	height: 16px;
+	width: 16px;	
+	display: inline-block;
+}
+
+#zend-dev-bar .zdb-pager1 {
+	background: transparent;
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#zend-dev-bar .zdb-pager1 .zdb-next {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJySURBVDjLpVNLbxJRFO4P8BfwO2Dp0g27VmvSnYkbEzYmLpq6sZP66KIxQmYsUUyb1gYqCZrU2qamVJwOIKaxUKAMD4HyKBQGHAaGx1COcy4P8bHzJt/i3pzvO+c759wJAJgYx7Vl0KjQqdCrmBlAP3jT/Bk/TryiQnv/rWhwuDOM9zjGnYROhUAwLBweRbg3riQza68YMAZjfxMYkK/a2DwVOE3whbIIktwB5bJHUGu0IVesgOcoyK/sJSiMHYoMBbRIDka+S82WAnjkdhcqUgcEFfVWl7xJchsOfX7JshNFES0RQF9YNmYekuPnDSj+aEOh2kc014BcpTUS2Tvw8Hc3CmhHgwI6B3fGYNl4SmIbbjxiCQnJ+WoLphZcEMpIkCk3SUwkeQ603csgFwX0nm9RDj1jqUi6/pBV4YJIrg5ZoakKfCIInkkgNhS4qMqwuvmeQy4KzPhPQgI2q1zrEAHMiLi56IVYvgFTlCpAOWH6sZvc28olbFg3BeQSgeNAkAhg+egVydNP3CQrik7OO4mtyfl9chcbHVhdez0S0H/+GuaqUgtqskJ8EjLVJyeL8oiMCXAysWwVaIt1ZEFndcaZdK4MvR5AutQk5SI5UZAJJh/sk6lgYzvdHhx8CQNl/jBqouaerWRwsj5eEJujSSARx4mekYwNxQRxNbvpxTp/2xzrj3G4SPS7ALX1kZUKlX5gta6QalIXMlkmzBzLVsBosUlz9M6vRRpf5SWrj1q3b/FefxzSBZH0BD2HUwLssgFYolf4WdP236s8/pnuvEoZFl7uMk+X1zj6uVl4ZmKERaOFmzM6mFtM5N+f6X++80/jPghfk2d02wAAAABJRU5ErkJggg==);
+}
+#zend-dev-bar .zdb-pager1 .zdb-prev {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJ7SURBVDjLpZNNbxJRFIb7A/wF/A5YunRDovEjalEXJm5M2Ji4aFoTI6kxjcVaCGOJYtq0NlBJ0AS0tcbWSkeQhhQopQwfAhYotAwIAwPDUI5zLh9SdedN3kzmznmfc86dc4cAYGhQZ2ZAJkkhSSlJ1ZWyuyf7M37QeEqSfOxNWW37uk+5fVF6Z3ePDQRD7KY3TL/eSFAj1qIaYzD2BKBrPm1xZjWBvTiTK5SB45sgHreJKjUBMvkiuLxBZnY1rsHYHqQHkKM5GP7O1Rsi4OKFFhS5JrCSqo0W2eN4ATY9fs60HEGInACwLywbM/fMR2UB9gt1yJUEomypAYk834esrruYO4s5bEeGAIWN/kFh2YNmldZ7wjw8uUX2cYUTB2Cwuin0IkDp2o7Q2DOWmjqqw6WHTgLIFBsQz/Fw7p6DAPBbuSbCYYmHuSUHjV4EqPw7uyweVv6nABfHP0vaIAbMfHbMLskBVx97yDtWIYjHsGheYtFLAL5AkAAKlSZcm/LDhQefCACBlx/RcP7+B7gy4SbVdKpowtz8qz5A+WUrRJe4BlR4EdKs1P8Tn9TCNiQPOwaEDU96IXZQI38mmi6BwWTut6Awr8WoVKYA7TYQA5Z5YzpAMqKw9OtP/RDJ1KDZasP6txBojO/7hyi7azlSrzk9DFvunDKaMDtmjGZrxIhPTBCTsuufLzC3jNHOb+wNkuFtQGP/6ORyxSoJLFVFUg2CcJgwczRdBJ3Jwo0aln8P0uAoa80ezYLVzrj9MUjlyuRMsOdQkoUVZwC0hllmRP/u71EevEy3XybV4y9WqKmZedrwzMhO6yl2QmeiR3U26iYV/vdl+p/r/AvMhAk86cw6LgAAAABJRU5ErkJggg==);
+}
+#zend-dev-bar .zdb-pager1 .zdb-first {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJiSURBVDjLpZNLbxJRFMf7AfwEfA5YunTDwsTuujO+YsLGxEVTV066cdGYQmaAKKZNawOVSE2qltRIW+kI0jQWOlCGh0Bb6FAYcBgYGKAc51wegrrzJv9k5ub8f+dx750CgKlx3bCBTpNBk1HTzEDGwZ7uz/hx4zVN+icbksnz9YwJHiXZ4+iJGOFi4v5hnH2zl2Fm3RUTxmDsBGBgvu7yF6jISZoXyhLIShs6Vz2iWkOFfLECgUOOX9pOUxg7hAwBejRz8R9ys9UBXIrahYrcBlFTvdUle7Kiwn4oLDu2EgjREwD2hWVj5qE5X2lBodoCoaoS4fdGsDiCbO8E+EdrArajQ4DBw54yWDYuzDg9vwcPbNEJ8z2Gg7Nyk8TEMxdAu4MMehFgDHxPsNgzllquIWCXALCSt5r5JnVAALlSE6RGBy6rCiyvv2fRi4CZ8HFUxGGhuSSpME3twn0rB8xWjnyjEJApKqQKtXMFa851Eb0EcBThCADNqFtPfcRg9Z5OANKCMqiiDcsrr0cA45eDGFuVW1BTOlD8iYDPxJC9VPotDQCpiwY5meR5FWiHc9SCwelLMbl8GXo9IIPD4Dt0PyMKq8K9RL4B7W4Pdr7FgLJ/HA1R99hVMvn8IV6UmiRgeHzJQoMIjfiPCVJadsuLVf6uPdk/xuFFot9FqM1Pflmo1Elgtd4h/WIbeLQITp5XwOxwyXP01u+LNH6VF5whatW9yQfDKcgJEpkJ9hzLiuD1R2CBXuJnLR/+vsrjj+nhq6xp/qWXeW5bYWmrXVy0MOIzs4OdM3uY20z834/pf57zL6w/CRKnLd7XAAAAAElFTkSuQmCC);
+}
+#zend-dev-bar .zdb-pager1 .zdb-last {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJzSURBVDjLpZNLbxJRFMf7AfwEfA5YunTDTnwk3RlfMWFj4qKpKyfV2EVjhMwAUUyb1gYqCdWgQmqkRToFaRoLBcoUEGiB8hoQpgzPcpxzgREfO2/y39yc/++87p0CgKlJXTKCQpJKklrS9Ejq0Z3iz/hJ4wVJyofrda1954Tx78fZg8ghHwpH+e29GPvGk2JmbFUtxmDsb4CR+aLVm6dCh0muUKmDIHahdz4gajQ7kCtWwbcX5hY3khTGjiFjgBLN4dh3odXuAR6x04eq0AVe0lm7T+4EsQPbgaBgdh4hREkA2BeWjZnHZsduCYo/OlCoDZWvtSFXbcuQjU0fd3+1gO0oEKCys8cMlo2nXO/A1SdeeBcoymbNnAfuGiOkGjyx1CnQNj+DXgSofd+OWOwZS0XTlcdeSR5Y9xchy7ckwBYBVBpdqDd7UKqJsLT2nkUvAqaDBxEeh4UBCMCMqOvzfmCcGdBQW3DHECbVnVRa0Omdw6pljUcvAeyHwgSAAdgrmq893SGZDa5juPzIDbeZISBTbklVdGFp+bUMUH/ZjbI1oQ0NsUcyELOUFStKFUUJ8JkAcLC4mXi2BrTZIregsrgTTCZXgcEASAYN5SbmZEEkQvNNOkza6/YHsPk1CpTpozxExQNrWev2Bji+3pI3gcbEaRPi+aa8TjQnpOz6FyvcLVN8uMbxQ6LfhijHJ69QqJ6RSmpnPVJNuiSS9aE5nq2CzmwVZmnnr4c0+ZQXLAFqxebg/MEEZAp1MhPsOZrmweUNwQK9yM3oP/z9lCc/071Xae3cSxfzzLjM0gYT/1zP8PM6MzurszM3mNi/P9P/fOefb4UIeuRftTUAAAAASUVORK5CYII=);
+}
